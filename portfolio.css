@@ -17,6 +17,7 @@ body{
 .block-header {
       margin: 10px 0;
     padding: 0 20px 10px;
+    /* ヘッダーの下線部分を影風にする */
     box-shadow: 0px 10px 10px -5px rgb(204 204 204 / 30%);
 }
 
