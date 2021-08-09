@@ -238,7 +238,7 @@ body{
    
   .box-works {
       margin: 60px 0 0;
-      padding: 0;
+      padding: 0 10px;
   }
    
   .works-list {max-width: 100%;}
@@ -249,13 +249,14 @@ body{
       margin-right: 0;
       margin-bottom: 30px;
   }
-
+   
   .works-list li h3 {
       font-size: 20px;
       margin: 5px 0;
   }
    
-  .works-list li span {font-size: 14px;
+  .works-list li span {
+      font-size: 14px;
   }
    
 }
