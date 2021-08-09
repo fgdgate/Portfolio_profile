@@ -138,10 +138,6 @@ body{
       margin: 10px;
       margin-left: auto;
   }
-
-  .works-list li:last-child h3 {
-        margin-top: 100px;
-  }
   
   .works-list li span {
       font-size: 18px;
@@ -151,15 +147,19 @@ body{
       display: flex;
       -webkit-justify-content: left;
       margin-top: 15px;
+      
   }
   
   .works-list li .link a {
-      background-color: rgb(226,226,226);
+      background-color: rgb(255, 149, 149);
       padding: 5px 20px;
-      margin-right: 10px;
+      margin-right: 20px;
       font-size: 15px;
       text-decoration: none;
       color: #000;
+      border-radius: 30px;
+      box-shadow: 1px 6px 4px 1px rgb(128 128 128 / 50%);
+
   }
   
   /* footerスタイル */
@@ -221,7 +221,7 @@ body{
   .item-list p {
       font-size: 14px;
       line-height: normal;
-      text-align: left;
+      text-align: center;
   }
    
   .icon-list {
@@ -238,7 +238,7 @@ body{
    
   .box-works {
       margin: 60px 0 0;
-      padding: 0 10px;
+      padding: 0;
   }
    
   .works-list {max-width: 100%;}
@@ -249,14 +249,13 @@ body{
       margin-right: 0;
       margin-bottom: 30px;
   }
-   
-   
-   
+
   .works-list li h3 {
       font-size: 20px;
       margin: 5px 0;
   }
    
-  .works-list li span {font-size: 14px;}
-   
+  .works-list li span {font-size: 14px;
   }
+   
+}
