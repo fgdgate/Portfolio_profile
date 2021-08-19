@@ -147,6 +147,7 @@ body{
       display: flex;
       -webkit-justify-content: left;
       margin-top: 15px;
+      align-items: center;
       
   }
   
@@ -158,7 +159,8 @@ body{
       text-decoration: none;
       color: #000;
       border-radius: 20px;
-      box-shadow: 1px 6px 4px 1px rgb(128 128 128 / 50%);
+      box-shadow: 4px 4px 0 #818888
+      /* rgb(128 128 128 / 50%); */
 
   }
   
@@ -167,8 +169,8 @@ body{
       clear: both;
       text-align: center;
       font-size: 15px;
-      margin: 50px 0 20px;
-      margin-bottom: 30px;
+      margin: 40px 0 20px;
+      margin-bottom: 40px;
       background-color: #00abae;
 }
 
