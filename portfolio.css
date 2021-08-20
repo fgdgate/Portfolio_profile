@@ -39,6 +39,7 @@ body{
       margin: 100px 0;
 }
 
+
 /* プロフィールスタイル */
 
 .item-list {
@@ -126,6 +127,7 @@ body{
       width: 100%;
       max-width: 348px;
       margin-right: 15px;
+      margin-bottom: 20px;
   }
   
   .works-list li img {
